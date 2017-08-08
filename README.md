@@ -1,3 +1,6 @@
+go to '/axsess/test'  to show axesstoday logo
+go to '/google/test'  to show google logo
+
 # PopupTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
