@@ -50,6 +50,10 @@ export class TestComponent implements OnInit {
                 this.imagesrc = '../assets/google.png';
                 break;
             }
+            case 'yahoo': {
+                this.imagesrc = '../assets/yahoo.png';
+                break;
+            }
             default: {
                 this.imagesrc = '../assets/axsess.jpg';
                 break;
