@@ -5,6 +5,9 @@
     <button (click)="goToSecureStatements()">Go To SecureStatements</button>
     <button (click)="goToDocuSign()">Go To DocuSign</button>
 </div>
+<div class="browserDiv">
+    <span>Browser Name and Version: {{browser}} </span>
+</div>
 <div class="popupwarning" *ngIf="show">
     <span>Turn off pop-up blocker and try again.  </span><button (click)="warningToggle(false)">x</button>
 </div>

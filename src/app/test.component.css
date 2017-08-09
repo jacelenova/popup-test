@@ -5,16 +5,20 @@
 }
 
 div {
+    font-family: Arial;
     margin: 5px;
     text-align: center;
 }
 
 button {
   margin-top: 20px;
-  font-family: Arial;
   background-color: #eee;
   border: none;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer; cursor: hand;
+}
+
+.browserDiv {
+    margin: 20px;
 }
