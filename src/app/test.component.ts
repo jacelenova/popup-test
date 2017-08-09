@@ -20,7 +20,6 @@ export class TestComponent implements OnInit {
         });
         
         this.browser = this.detectBrowser();
-        this.newWindow('https://test.1231951919.com.au/');
     }
 
     goToSecureStatements() {
