@@ -37,9 +37,8 @@ export class TestComponent implements OnInit {
 
     newWindow(url): void {
         let newWindow = window.open(url);
-        
+
         setTimeout(() => {
-            debugger;
             if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined' || newWindow.outerWidth == 0) {
                 // alert('Turn off pop-up blocker and try again.');
                 if (!this.browser.includes('IE')) {
