@@ -8,6 +8,9 @@
 <div class="browserDiv">
     <span>Browser Name and Version: {{browser}} </span>
 </div>
+<div *ngIf="!html5Support">
+    <p>Your browser does not support HTML5. Download the latest version of your browser <a [href]="dlLink">here</a></p>
+</div>
 <div class="popupwarning" *ngIf="show">
     <span>Turn off pop-up blocker and try again.  </span><button (click)="warningToggle(false)">x</button>
 </div>
